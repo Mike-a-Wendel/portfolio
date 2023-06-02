@@ -1,7 +1,7 @@
 ---
 title: Documentation for Db2 Data Gate
 publishDate: 2020-03-04 00:00:00
-img: /assets/db2-data-gate.jpg
+img: /portfolio/assets/db2-data-gate.jpg
 img_alt: Db2 Data Gate documentation home page
 description: |
   Delivered comprehensive technical documentation to support the launch of a new cloud service product in 2 months by closely collaborating with a global development team.
@@ -11,10 +11,10 @@ tags:
   - Collaborating
 ---
 
-| Writing Sample Type           | Read online                                                                                                                                              | Download or Print                                         |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| Documentation set             | [Published on IBM.com](https://www.ibm.com/docs/en/cloud-paks/cp-data/3.5.0?topic=services-db2-data-gate)                                                | [PDF](../assets/pdf/Michael-Wendel-technical-sample1.pdf) |
-| Community marketing blog post | [Introducing Db2 Data Gate](https://community.ibm.com/community/user/datamanagement/blogs/mike-wendel1/2020/06/19/introducing-ibm-db2-for-zos-data-gate) | [PDF](../assets/pdf/Michael-Wendel-blog-sample.pdf)       |
+| Writing Sample Type           | Read online                                                                                                                                              | Download or Print                                                   |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Documentation set             | [Published on IBM.com](https://www.ibm.com/docs/en/cloud-paks/cp-data/3.5.0?topic=services-db2-data-gate)                                                | [PDF](../portfolio/assets/pdf/Michael-Wendel-technical-sample1.pdf) |
+| Community marketing blog post | [Introducing Db2 Data Gate](https://community.ibm.com/community/user/datamanagement/blogs/mike-wendel1/2020/06/19/introducing-ibm-db2-for-zos-data-gate) | [PDF](../portfolio/assets/pdf/Michael-Wendel-blog-sample.pdf)       |
 
 #### Background
 
@@ -38,7 +38,7 @@ Prior to the release, I also authored a community announcement blog post to help
 
 ---
 
-| Writing Sample Type           | Read online                                                                                                                                              | Download or Print                                         |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| Documentation set             | [Published on IBM.com](https://www.ibm.com/docs/en/cloud-paks/cp-data/3.5.0?topic=services-db2-data-gate)                                                | [PDF](../assets/pdf/Michael-Wendel-technical-sample1.pdf) |
-| Community marketing blog post | [Introducing Db2 Data Gate](https://community.ibm.com/community/user/datamanagement/blogs/mike-wendel1/2020/06/19/introducing-ibm-db2-for-zos-data-gate) | [PDF](../assets/pdf/Michael-Wendel-blog-sample.pdf)       |
+| Writing Sample Type           | Read online                                                                                                                                              | Download or Print                                                   |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Documentation set             | [Published on IBM.com](https://www.ibm.com/docs/en/cloud-paks/cp-data/3.5.0?topic=services-db2-data-gate)                                                | [PDF](../portfolio/assets/pdf/Michael-Wendel-technical-sample1.pdf) |
+| Community marketing blog post | [Introducing Db2 Data Gate](https://community.ibm.com/community/user/datamanagement/blogs/mike-wendel1/2020/06/19/introducing-ibm-db2-for-zos-data-gate) | [PDF](../portfolio/assets/pdf/Michael-Wendel-blog-sample.pdf)       |
