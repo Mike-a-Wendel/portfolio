@@ -109,6 +109,13 @@ declare module 'astro:content' {
   collection: "work",
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] },
+"db2-for-zos.md": {
+  id: "db2-for-zos.md",
+  slug: "db2-for-zos",
+  body: string,
+  collection: "work",
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] },
 },
 
 	};
