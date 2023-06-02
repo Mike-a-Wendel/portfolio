@@ -4,9 +4,9 @@ import ThemeToggle from "./ThemeToggle.astro";
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-  { label: "Home", href: "/" },
-  { label: "Work", href: "/work/" },
-  { label: "About", href: "/about/" },
+  { label: "Home", href: "/portfolio/" },
+  { label: "Work", href: "/portfolio/work/" },
+  { label: "About", href: "/portfolio/about/" },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -31,7 +31,7 @@ const iconLinks: { label: string; href: string; icon: IconProps["icon"] }[] = [
 
 <nav>
   <div class="menu-header">
-    <a href="/" class="site-title">
+    <a href="/portfolio/" class="site-title">
       <Icon
         icon="pencil-line"
         color="var(--accent-regular)"
@@ -61,7 +61,7 @@ const iconLinks: { label: string; href: string; icon: IconProps["icon"] }[] = [
                 {
                   active:
                     Astro.url.pathname === href ||
-                    (href !== "/" && Astro.url.pathname.startsWith(href)),
+                    (href !== "/portfolio/" && Astro.url.pathname.startsWith(href)),
                 },
               ]}
               href={href}
