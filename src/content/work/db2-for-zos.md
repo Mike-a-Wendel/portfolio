@@ -1,6 +1,6 @@
 ---
 title: Db2 for z/OS SQL Reference
-publishDate: 2020-03-04 00:00:00
+publishDate: 2020-03-09 00:00:00
 img: /portfolio/assets/db2-sql.jpg
 img_alt: Db2 for z/OS SELECT statement overview
 description: |
@@ -32,7 +32,7 @@ New technical documentation was developed by early teaming with engineering to c
 
 #### Results
 
-The SQL Reference is the single largest piece of Db2 for z/OS documentation, which consistently has some of the highest usage and engagement metrics of any documentation on IBM.com, with approximately 500K monthly page views. In addition, Db2 for z/OS documentation has consistently high Net Promoter Scores (NPS) - in the upper 80s and low 90s - indicating that users view the content as high value and high quality.
+The SQL Reference is the single largest piece of Db2 for z/OS documentation, which consistently has some of the highest usage and engagement metrics of any documentation on IBM.com, with approximately 500K monthly page views. In addition, Db2 for z/OS documentation has consistently high Net Promoter Scores (NPS) -- in the upper 80s and low 90s -- indicating that users view the content as high value and high quality.
 
 ---
 

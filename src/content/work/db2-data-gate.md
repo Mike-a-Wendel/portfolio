@@ -1,6 +1,6 @@
 ---
 title: Documentation for Db2 Data Gate
-publishDate: 2020-03-04 00:00:00
+publishDate: 2020-03-10 00:00:00
 img: /portfolio/assets/db2-data-gate.jpg
 img_alt: Db2 Data Gate documentation home page
 description: |

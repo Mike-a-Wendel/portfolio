@@ -116,6 +116,13 @@ declare module 'astro:content' {
   collection: "work",
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] },
+"python-samp.md": {
+  id: "python-samp.md",
+  slug: "python-samp",
+  body: string,
+  collection: "work",
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] },
 },
 
 	};
