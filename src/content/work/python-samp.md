@@ -14,7 +14,7 @@ tags:
 | Writing Sample Type        | Read online                                                                                       | Download or Print                             |
 | -------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | sortFiles.py Python script | [GitHub](https://github.com/Mike-a-Wendel/portfolio/blob/main/public/assets/scripts/sortFiles.py) | [Download](../../assets/scripts/sortFiles.py) |
-| Using sortFiles.py         | [Sample documentation](#using-sortfilespy)                                                        | [PDF](../../assets/pdf/Using-sortFiles.pdf)   |
+| Using sortFiles.py         | [Sample documentation](#using-sortfilespy)                                                        | [PDF](../../assets/pdf/Using-sortfiles.pdf)   |
 
 **Notes on the writing sample:** Please consider the following description, the included python sample, and the [Sample documentation](#using-sortfilespy) as the writing sample.
 
