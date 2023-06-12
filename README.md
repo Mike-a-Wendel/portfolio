@@ -1,6 +1,7 @@
-# Mike Wendel's Portfolio, based off of - Astro Starter Kit: Portfolio
+# Mike Wendel's Portfolio, based off of Astro Starter Kit: Portfolio
 
 [![Deploy to GitHub Pages](https://github.com/Mike-a-Wendel/portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/Mike-a-Wendel/portfolio/actions/workflows/deploy.yml)
+
 https://mike-a-wendel.github.io/portfolio/
 
 Create your own using [Astro](https://astro.build/)
