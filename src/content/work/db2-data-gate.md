@@ -18,7 +18,7 @@ tags:
 
 #### Background
 
-In this particular project, teams located in China, Germany, and California joined forces to develop and launch the first release of Db2 for z/OS Data Gate. This cloud service replicates Db2 for z/OS data to a cloud environment, providing users with a seamless and efficient experience. However, the product’s success depended on delivering comprehensive documentation because of the complexity of the backend setup and configuration. Additionally, maintaining documentation consistency with other cloud services in the same environment was paramount for a seamless user experience.
+In this particular project, teams located in China, Germany, and California closely collaborated to develop and launch the first release of Db2 for z/OS Data Gate. This cloud service replicates Db2 for z/OS data to a cloud environment, providing users with a seamless and efficient experience. However, the product’s success depended on delivering comprehensive documentation because of the complexity of the backend setup and configuration. Additionally, maintaining documentation consistency with other cloud services in the same environment was paramount for a seamless user experience.
 
 With a tight deadline of just two months, a globally distributed team, and little to no formal design specifications, delivering complete and accurate documentation was going to be a challenge.
 
