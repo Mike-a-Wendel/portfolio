@@ -16,21 +16,23 @@ tags:
 | sortFiles.py Python script | [GitHub](https://github.com/Mike-a-Wendel/portfolio/blob/main/public/assets/scripts/sortFiles.py) | [Download](../../assets/scripts/sortFiles.py) |
 | Using sortFiles.py         | [Sample documentation](#using-sortfilespy)                                                        | [PDF](../../assets/pdf/Using-sortfiles.pdf)   |
 
-**Notes on the writing sample:** Please consider the following description, the included python sample, and the [Sample documentation](#using-sortfilespy) as the writing sample.
+**Notes on the writing sample:** Please consider the following description, the included python sample, and the [Sample documentation](#using-sortfilespy) as the complete writing sample.
 
 #### Background
 
-Large sets of information (let’s call them libraries), written by multiple people, present unique challenges to ensure data integrity, consistency, and library-wide updates. Data integrity and consistency can often be handled through the appropriate use of source control, like implementation and enforcement of a branch model, branch protection rules, and code reviews in GitHub.
+Large sets of information (let’s call them libraries) written by multiple authors present unique challenges to ensure consistency, file integrity, and application of library-wide changes. Integrity and consistency can often be handled through the appropriate use of source control, like implementation and enforcement of a branch model, branch protection rules, and code reviews in GitHub.
 
 Processes and tools to manage library-wide updates independently of the work of individual writers can be critical to the effectiveness of a documentation team.
 
-For example, say you need to run accessibility checks and fixes as part of a bid requirement for a contract. Involving the entire documentation team in this important work takes them away from other critical work. You could hire a contractor just to handle this task, but you’ll likely have to hire her again when yet another unexpected, urgent task comes up that your team doesn’t have the bandwidth to handle. Or you could rely on documentation tools and processes that are developed specifically for your library to help your writers do what they do best, provide real value to the product by delighting customers while addressing their needs. Not by doing mindless, repetitive tasks to scrub already written documentation.
+For example, say you need to run accessibility checks and fixes as part of a bid requirement for a contract. Involving the entire documentation team in this important work can take them away from other critical work. You could hire a contractor just to handle this task, but you’ll likely have to hire her again when yet another unexpected, urgent task comes up that your team doesn’t have the resources to handle.
+
+Or you could rely on documentation tools and processes that are developed specifically for your library to help your writers do what they do best, provide real value to the product by delighting customers while addressing their needs. Not by doing mindless, repetitive tasks to scrub already written documentation.
 
 #### Process
 
-Developing processes and tools to simplify the work of documentation teams requires strategic thought as well as the ability to translate process logic into tools.
+Developing processes and tools to simplify the work of documentation teams requires strategic thought as well as the ability to translate process logic into usable tools.
 
-As a sample, consider this Python script, which sorts DITA XML files into separate folders based on the topicrefs in a DITA map. This is a simplistic example, and might be used as the first step in a process to test or make changes to one set of topics when all documentation source is stored in a monorepo.
+As a sample, consider this Python script, which sorts DITA XML files into separate folders based on the topicrefs in a DITA map. This is a simplistic example, and might be used as the first step in a larger process to test or update one set of topics when all documentation source is stored in a common repository.
 
 ---
 
@@ -40,7 +42,7 @@ This script sorts files into folders based on topicrefs in a DITA map. It uses t
 
 #### Requirements
 
-To run this script, you will need:
+To run this script, you need:
 
 - [Python 3](https://www.python.org/downloads/) installed on your computer
 - The [BeautifulSoup library installed](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup) with the lxml library since the script parses DITA. You can install the lxml library and BeautifulSoup by running the following command in your terminal or command prompt:
@@ -52,25 +54,30 @@ To run this script, you will need:
 
 #### Usage
 
-To use this script, you will need to provide the following information when prompted:
+To use this script, provide the following information when prompted:
 
 - The path to the DITA map file
-- The path to the source folder containing the files to be sorted
-- The path to the target folder where the sorted files will be stored
+- The path to the source folder that contains the files to sort
+- The path to the target folder to store the sorted files
 
-Here's an example of how you can run this program:
+For example, run the following command:
 
 ```shell
 python sortFiles.py
 ```
 
-The script will prompt you to enter the path to the DITA map file, the source folder, and the target folder.
+The script prompts you to enter the path to the DITA map file, the source folder, and the target folder.
 
 #### Notes
 
 - The script assumes that the file names in the source folder match the href attributes in the DITA map.
-- The script will create the target folder if it doesn't exist.
-- If a folder with the same name as a map id already exists in the target folder, that folder will be used instead of a new folder, which might overwrite existing files in the target folder.
-- The program will copy the files from the source folder to the target folder, so the original files will still be available in the source folder.
+- The script creates the target folder if it does not already exist.
+- If a folder with the same name as a map id already exists in the target folder, the existing folder is used instead of a new folder. Existing files in the target folder might be replaced.
+- Files from the source folder are copied to the target folder, so the original files are still available in the source folder.
 
 ---
+
+| Writing Sample Type        | Read online                                                                                       | Download or Print                             |
+| -------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| sortFiles.py Python script | [GitHub](https://github.com/Mike-a-Wendel/portfolio/blob/main/public/assets/scripts/sortFiles.py) | [Download](../../assets/scripts/sortFiles.py) |
+| Using sortFiles.py         | [Sample documentation](#using-sortfilespy)                                                        | [PDF](../../assets/pdf/Using-sortfiles.pdf)   |
